@@ -8,6 +8,7 @@ html {
 a {
     color: aquamarine;
     font-size: 16px;
+    display: block;
 }
 
 /* ////////////////////////////////////////////////////////////////section 01////////////////////////////////////////////////////// */
@@ -17,6 +18,21 @@ h1 {
     font-weight: normal;
     font-size: 50px;
 }
+header a {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+header h1 {
+    margin-top: 30px;
+
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+#story {
+    margin-bottom: 50px;
+}
 
 #story h2, #soon h2 {
     font-weight: 300;
@@ -24,11 +40,22 @@ h1 {
 
 }
 
-.story p {
+#story h2 {
+    margin-bottom: 40px;
+}
+#story p {
     font-size: 21px;
     color: gray;
+    margin-bottom: 30px;
 }
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 footer {
+    margin-top: 50px;
     color: gray;
 
     text-align: right;
